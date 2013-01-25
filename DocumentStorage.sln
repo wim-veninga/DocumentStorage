@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStorage.Web", "DocumentStorage.Web\DocumentStorage.Web.csproj", "{0D2A6B80-037A-4948-9014-E8120BAC86DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStorage.Web.Tests", "DocumentStorage.Web.Tests\DocumentStorage.Web.Tests.csproj", "{35D354A8-6F88-4EB5-9CC9-EF22D09C01D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStorage.Repository", "DocumentStorage.Repository\DocumentStorage.Repository.csproj", "{CF6B534C-2931-45FC-8407-531FE2250664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStorage.Repository.Tests", "DocumentStorage.Repository.Tests\DocumentStorage.Repository.Tests.csproj", "{6BC7159B-BB5A-4324-BF43-5F3AB543D695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStorage.Domain", "DocumentStorage.Domain\DocumentStorage.Domain.csproj", "{50CD4D52-544A-47A3-B1F0-06A80997BB17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2A6B80-037A-4948-9014-E8120BAC86DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2A6B80-037A-4948-9014-E8120BAC86DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2A6B80-037A-4948-9014-E8120BAC86DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2A6B80-037A-4948-9014-E8120BAC86DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D354A8-6F88-4EB5-9CC9-EF22D09C01D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D354A8-6F88-4EB5-9CC9-EF22D09C01D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D354A8-6F88-4EB5-9CC9-EF22D09C01D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D354A8-6F88-4EB5-9CC9-EF22D09C01D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6B534C-2931-45FC-8407-531FE2250664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6B534C-2931-45FC-8407-531FE2250664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6B534C-2931-45FC-8407-531FE2250664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6B534C-2931-45FC-8407-531FE2250664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC7159B-BB5A-4324-BF43-5F3AB543D695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC7159B-BB5A-4324-BF43-5F3AB543D695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC7159B-BB5A-4324-BF43-5F3AB543D695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC7159B-BB5A-4324-BF43-5F3AB543D695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CD4D52-544A-47A3-B1F0-06A80997BB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CD4D52-544A-47A3-B1F0-06A80997BB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CD4D52-544A-47A3-B1F0-06A80997BB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CD4D52-544A-47A3-B1F0-06A80997BB17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
