@@ -51,6 +51,7 @@
     <Compile Include="Document.cs" />
     <Compile Include="DocumentType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeCategory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

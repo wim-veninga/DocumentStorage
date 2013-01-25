@@ -20,8 +20,6 @@ namespace DocumentStorage.Domain
 			get;
 
 			set;
-		}
-
-
+		}		
     }
 }
